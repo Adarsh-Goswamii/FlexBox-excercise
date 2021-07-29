@@ -37,7 +37,7 @@ p {
 
 .hero {
     display: grid;
-    height: 100vh;
+    height: fit-content;
     grid-template-columns: 1fr 3fr 1.5fr;
     padding: 0rem 3rem;
 }
@@ -244,3 +244,88 @@ footer {
     margin-right: 1.5rem;
 }
 
+@media only screen and (max-width: 900px) {
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 2fr 1fr;
+    }
+
+    .nav {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
+    .about-section {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .extra-section {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .extra-section .testimonials {
+        width: 40%;
+        height: 80%;
+        
+    }
+
+    .extra-section .pie-of-the-month {
+        width: 40%;
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .hero .nav .logo img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .hero .nav .logo {
+        padding: 2rem 2rem 0rem 2rem;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-section .one p {
+        padding: 0rem 1rem;
+    }
+
+    .extra-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .extra-section .testimonials, .pie-of-the-month {
+        width: 80%;
+        height: max-content;
+    }
+
+    .extra-section .pie-of-the-month {
+        width: 80%;
+        height: max-content;
+        margin-top: 2rem;
+    }
+
+    .nav .btn {
+        position: absolute;
+        opacity: 0;
+    }
+
+    footer {
+        padding: 2rem ;
+        text-align: center;
+    }
+    
+}
