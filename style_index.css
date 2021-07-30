@@ -1,0 +1,133 @@
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Poppins ;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: PopMedium ;
+    src: url(./fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: PopBold ;
+    src: url(./fonts/Poppins-Bold.ttf);
+}
+
+.logo {
+    width: 100%;
+    height: 70%;
+    position: fixed;
+    top: 0%;
+    z-index: -1;
+    background-image: url(./img/top_picture.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: top left;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px rgb(0 0 0 / 70%);
+    color: white;
+    font-family: PopBold;
+    margin-left: 10%;
+}
+
+/* .pic {
+    z-index: -1;
+} */
+
+.hero {
+    margin-top: 75vh;
+    background-image: url(./img/Desktop\ -\ 2.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nav .logo {
+    margin-bottom: 1rem;
+}
+
+.nav .btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #dddddd ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #64113F;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.nav .btn:hover {
+    transform: scale(1.05);
+    background: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.nav .active:hover {
+    background: #64113F;
+    color: white;
+}
+
+.nav .logo img {
+    display: inline;
+    height: 5rem;
+    width: 5rem;
+}
+
+.nav .logo h1 {
+    display: inline;
+    text-align: center;
+}
+
+.nav .active {
+    background: #64113F;
+    color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.1rem;
+}
+
+.hero {
+    display: grid;
+    height: fit-content;
+    grid-template-columns: 1fr 2.25fr 2.25fr;
+    padding: 0rem 3rem;
+}
+
+
+footer {
+    height: 25vh;
+    background: #F7CACD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #64113F;
+    margin-top: 5rem;
+}
+
+.social-links {
+    margin-top: 2rem;
+}.social-links img {
+    margin-right: 1.5rem;
+}
