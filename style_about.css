@@ -280,7 +280,7 @@ footer {
     padding: 3rem 3rem;
     display: grid;
     grid-template-columns: 1fr 2.25fr 2.25fr;
-    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
     border-radius: 2rem 2rem 0rem 0rem ;
 }
 
@@ -369,7 +369,7 @@ footer {
 .wrapper .hero2 .pie .card .name {
     width: 50%;
     height: 10%;
-    background: #460904;
+    background: #F2d49f70;
     margin-left: 1rem;
     display: flex;
     justify-content: center;
@@ -380,11 +380,11 @@ footer {
 }
 
 .wrapper .hero2 .cheese-one .card .name {
-    background: #BB9B9E;
+    background: #F2d49f70;
 }
 
 .wrapper .hero2 .cheese-two .card .name {
-    background: #BB9B9E;
+    background: #F2d49f70;
 }
 
 .wrapper .hero2 .pie .card:hover {
@@ -408,8 +408,52 @@ footer {
     margin-top: 0;
 }
 
-.wrapper .hero2 .pie  {
+.wrapper  .hero2 .pie .card:hover .name {
+    background: #460904;
+    cursor: pointer;
+}
 
+.hero2 .donations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/4;
+    text-align: center;
+    margin-top: 2rem;
+    color: #64113F;
+}
+
+.hero2 .donations p:nth-child(2) {
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.hero2 .donations .row {
+    margin-top: 1rem;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    color: #64113F;
+}
+
+.hero2 .donations .row .btn {
+    height: 2rem;
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    background: #64113F;
+    border: 0px;
+    border-radius: 0.3rem;
+    align-self: flex-start;
+    margin: 0px;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.hero2 .donations .row .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (max-width: 900px) {
