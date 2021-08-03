@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
+.wrapper {
+    background-image: url(./img/Desktop\ -\ 2.png);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    height: 100vh;
+    width: 50%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 4rem;
+}
+
+.left h3 {
+    color: #64113F;
+    font-family: Poppins;
+}
+
+.right {
+    background-color: #F7CACD;
+    width: 50%;
+    height: 100vh;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .time-left {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.right .time-left .days-left, .Hours-left, .Minutes-left, .Seconds-left {
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Poppins;
+    color: #64113F;
+} 
+
+.right .time-left .days-left {
+    align-self: ;
+}
+
+.line {
+    height: 0.3rem;
+    width: 100%;
+    fill: #64113F;
+    background-color: #64113F;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.right .random-text {
+    width: 80%;
+    font-family: Poppins;
+    color: #64113F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.right .random-text h2 {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .left img {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .left, .right {
+        padding: 1rem;
+    }
+}
