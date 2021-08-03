@@ -10,8 +10,6 @@ function timeLeft() {
     time_left -= 60 * 1000 * minutes_left;
 
     let seconds_left = Math.floor(time_left / 1000);
-    if(seconds_left== 1) init();
-
     // console.log("Days left: " + days_left);
     // console.log("Hours left: " + hours_left);
     // console.log("Minutes left: " + minutes_left);
@@ -26,10 +24,5 @@ function timeLeft() {
 }
 
 
-function init() {
-    curr_date = new Date().getTime();
-    release_date = curr_date + 10 * 24 * 60 * 60 * 1000;
-}
-
-init();
+let release_date = new Date("13 August 2021 09:09:00").getTime(); 
 setInterval(timeLeft, 1000);
