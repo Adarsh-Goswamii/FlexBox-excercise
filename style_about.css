@@ -597,3 +597,43 @@ footer {
         margin: 0px;
     }
 }
+
+/* LANDING ANIMATIONS*/
+.splash {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    background:#64113F;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash-text-container {
+    background:#64113F;
+    overflow: hidden;
+}
+
+.splash-text-container .splash-text {
+    font-family: PopMedium;
+    font-size: 3rem;
+    transform: translateY(100%);
+    display: inline-block;
+
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    background:#941a5d;
+    transform: translateY(100%);
+}

@@ -23,6 +23,5 @@ function timeLeft() {
     time[0].innerText = days_left;
 }
 
-
 let release_date = new Date("13 August 2021 09:09:00").getTime(); 
 setInterval(timeLeft, 1000);
