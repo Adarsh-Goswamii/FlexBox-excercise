@@ -12,24 +12,24 @@ body {
 }
 
 @font-face {
-    font-family: Poppins ;
+    font-family: Poppins;
     src: url(./fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
-    font-family: PopMedium ;
+    font-family: PopMedium;
     src: url(./fonts/Poppins-SemiBold.ttf);
 }
 
 a {
     text-decoration: none;
-    color: #64113F;
+    color: #64113f;
 }
 
 h1 {
     font-family: Poppins;
     font-size: 1.6rem;
-    color: #64113F;
+    color: #64113f;
 }
 h3 {
     font-family: Poppins;
@@ -77,11 +77,11 @@ p {
 
 .nav .btn {
     padding: 0.5rem 1rem;
-    border: 1px solid #dddddd ;
+    border: 1px solid #dddddd;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #64113F;
+    color: #64113f;
     border-radius: 0.3rem;
     cursor: pointer;
     transition: 0.5s ease;
@@ -94,7 +94,7 @@ p {
 }
 
 .nav .active:hover {
-    background: #64113F;
+    background: #64113f;
     color: white;
 }
 
@@ -110,7 +110,7 @@ p {
 }
 
 .nav .active {
-    background: #64113F;
+    background: #64113f;
     color: white;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
     letter-spacing: 0.1rem;
@@ -133,10 +133,10 @@ p {
 .about-section .card img {
     height: 15rem;
     width: 15rem;
-} 
+}
 
 .about-section .card h3 {
-    color: #64113F;
+    color: #64113f;
     margin-top: 1rem;
     letter-spacing: 0.1rem;
     font-family: PopMedium;
@@ -147,7 +147,7 @@ p {
     text-align: center;
     margin-top: 1rem;
     padding: 0rem 3rem;
-    color: #DE4D89;
+    color: #de4d89;
 }
 
 /*EXTRA SECTION STYLING STARTS HERE------------------------------------------------*/
@@ -169,18 +169,19 @@ p {
     transition: 0.5s ease;
 }
 
-.extra-section .testimonials h3, p{
+.extra-section .testimonials h3,
+p {
     display: block;
 }
 
 .extra-section .testimonials p {
     margin-top: 1rem;
-    color: #DE4D89;
+    color: #de4d89;
     text-align: center;
 }
 
 .extra-section .testimonials h3 {
-    color: #64113F;
+    color: #64113f;
 }
 
 .extra-section .pie-of-the-month {
@@ -196,7 +197,7 @@ p {
     display: block;
     margin-bottom: 1rem;
     text-align: center;
-    color: #64113F;
+    color: #64113f;
 }
 
 .extra-section .pie-of-the-month p {
@@ -205,47 +206,47 @@ p {
 }
 
 .extra-section .testimonials:hover {
-    background:#ff4500;
+    background: #ff4500;
     transform: scale(1.05);
     border: none;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), 10px 10px 50px rgba(0, 0, 0, 0.2);
 }
 
 .extra-section .pie-of-the-month:hover {
-    background:#ff4500;
+    background: #ff4500;
     transform: scale(1.05);
     border: none;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), 10px 10px 50px rgba(0, 0, 0, 0.2);
 }
 
-.extra-section .testimonials:hover  p {
+.extra-section .testimonials:hover p {
     color: white;
 }
 
-.extra-section .pie-of-the-month:hover  h3 {
+.extra-section .pie-of-the-month:hover h3 {
     color: white;
 }
 
-.extra-section .testimonials:hover  h3 {
+.extra-section .testimonials:hover h3 {
     color: white;
 }
-
 
 /* FOOTER STYLING STARTS HERE----------------------------------------------------*/
 footer {
     height: 25vh;
-    background: #F7CACD;
+    background: #f7cacd;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #64113F;
+    color: #64113f;
     margin-top: 5rem;
 }
 
 .social-links {
     margin-top: 2rem;
-}.social-links img {
+}
+.social-links img {
     margin-right: 1.5rem;
 }
 
@@ -281,23 +282,23 @@ footer {
     display: grid;
     grid-template-columns: 1fr 2.25fr 2.25fr;
     grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
-    border-radius: 2rem 2rem 0rem 0rem ;
+    border-radius: 2rem 2rem 0rem 0rem;
 }
 
-.hero2 nav{
+.hero2 nav {
     grid-row: 1/4;
     grid-column: 1/2;
 }
 
 .wrapper .hero2 nav .active {
-    background: #64113F;
+    background: #64113f;
     color: white;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
     letter-spacing: 0.1rem;
 }
 
-.main  {
-    color: #64113F;
+.main {
+    color: #64113f;
     text-align: center;
     grid-column: 2/4;
     grid-row: 1/2;
@@ -316,14 +317,16 @@ footer {
     margin-top: 1rem;
 }
 
-.wrapper .hero2 .chiffon-one, .cheese-two {
+.wrapper .hero2 .chiffon-one,
+.cheese-two {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 1rem;
 }
 
-.wrapper .hero2 .chiffon-two, .cheese-one {
+.wrapper .hero2 .chiffon-two,
+.cheese-one {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -360,16 +363,16 @@ footer {
 .wrapper .hero2 .pie .card img {
     width: 15rem;
     height: 12rem;
-    align-self: flex-end;   
+    align-self: flex-end;
     transform: translateX(20%);
-    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, .5));
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
     transition: 0.5s ease;
 }
 
 .wrapper .hero2 .pie .card .name {
     width: 50%;
     height: 10%;
-    background: #F2d49f70;
+    background: #f2d49f70;
     margin-left: 1rem;
     display: flex;
     justify-content: center;
@@ -380,17 +383,16 @@ footer {
 }
 
 .wrapper .hero2 .cheese-one .card .name {
-    background: #F2d49f70;
+    background: #f2d49f70;
 }
 
 .wrapper .hero2 .cheese-two .card .name {
-    background: #F2d49f70;
+    background: #f2d49f70;
 }
 
 .wrapper .hero2 .pie .card:hover {
     transform: scale(1.05);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2), 
-        0px 0px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
 
 .wrapper .hero2 .pie .card:hover img {
@@ -408,7 +410,7 @@ footer {
     margin-top: 0;
 }
 
-.wrapper  .hero2 .pie .card:hover .name {
+.wrapper .hero2 .pie .card:hover .name {
     background: #460904;
     cursor: pointer;
 }
@@ -421,7 +423,7 @@ footer {
     grid-column: 2/4;
     text-align: center;
     margin-top: 2rem;
-    color: #64113F;
+    color: #64113f;
 }
 
 .hero2 .donations p:nth-child(2) {
@@ -435,14 +437,14 @@ footer {
     width: 50%;
     justify-content: space-between;
     align-items: center;
-    color: #64113F;
+    color: #64113f;
 }
 
 .hero2 .donations .row .btn {
     height: 2rem;
     width: fit-content;
     padding: 0.5rem 2rem;
-    background: #64113F;
+    background: #64113f;
     border: 0px;
     border-radius: 0.3rem;
     align-self: flex-start;
@@ -456,6 +458,86 @@ footer {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
 
+/*GALLERY ==============================================================*/
+.wrapper-gallery {
+    padding: 1rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr 4.5fr;
+    grid-template-rows: 1fr;
+    height: 120vh;
+}
+
+.wrapper-gallery nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.wrapper-gallery nav .btn {
+    margin-top: 3rem;
+}
+
+.wrapper-gallery .gallery {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+.wrapper-gallery .gallery .container:nth-child(1) {
+    grid-row: 1/3;
+}
+
+.wrapper-gallery .gallery .container:nth-child(8) {
+    grid-row: 3/5;
+    grid-column: 3/4;
+}
+
+.wrapper-gallery .gallery .container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wrapper-gallery .gallery .container img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.wrapper-gallery .gallery .container img:hover {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+
+/* .modal {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.modal .desc-pie .modal-info h3 {
+    font-family: Poppins;
+    font-size: 2rem;
+}
+
+.modal .desc-pie .modal-info p {
+    font-family: Poppins;
+    font-size: 1.2rem;
+} */
+
+/*GALLERY ENDS====================================================================*/
+/*GALLERY ENDS====================================================================*/
+/*GALLERY ENDS====================================================================*/
 @media only screen and (max-width: 900px) {
     .hero {
         display: grid;
@@ -482,14 +564,12 @@ footer {
     .extra-section .testimonials {
         width: 40%;
         height: 80%;
-        
     }
 
     .extra-section .pie-of-the-month {
         width: 40%;
         height: 80%;
     }
-
 
     .wrapper .hero2 .pie .card {
         width: 10rem;
@@ -514,11 +594,11 @@ footer {
         transform: translateX(25%);
         width: 9.5rem;
         height: 8.5rem;
-    }    
+    }
 }
 
 @media only screen and (max-width: 450px) {
-    .hero .nav .logo img{
+    .hero .nav .logo img {
         height: 50px;
         width: 50px;
     }
@@ -545,7 +625,8 @@ footer {
         height: fit-content;
     }
 
-    .extra-section .testimonials, .pie-of-the-month {
+    .extra-section .testimonials,
+    .pie-of-the-month {
         width: 80%;
         height: max-content;
     }
@@ -562,7 +643,7 @@ footer {
     }
 
     footer {
-        padding: 2rem ;
+        padding: 2rem;
         text-align: center;
     }
 
@@ -572,7 +653,7 @@ footer {
         background-repeat: no-repeat;
     }
 
-    .hero2 .nav .logo img{
+    .hero2 .nav .logo img {
         height: 50px;
         width: 50px;
     }
@@ -587,7 +668,10 @@ footer {
         padding: 1rem;
     }
 
-    .wrapper .hero2 .chiffon-one, .chiffon-two, .cheese-one, .cheese-two {
+    .wrapper .hero2 .chiffon-one,
+    .chiffon-two,
+    .cheese-one,
+    .cheese-two {
         justify-content: center;
         margin: 0px;
     }
@@ -606,7 +690,7 @@ footer {
     top: 0%;
     left: 0%;
     z-index: 2;
-    background:#64113F;
+    background: #64113f;
     display: flex;
     flex-direction: column;
     color: white;
@@ -615,7 +699,7 @@ footer {
 }
 
 .splash-text-container {
-    background:#64113F;
+    background: #64113f;
     overflow: hidden;
 }
 
@@ -624,7 +708,6 @@ footer {
     font-size: 3rem;
     transform: translateY(100%);
     display: inline-block;
-
 }
 
 .slider {
@@ -634,6 +717,6 @@ footer {
     top: 0%;
     left: 0%;
     z-index: 2;
-    background:#941a5d;
+    background: #941a5d;
     transform: translateY(100%);
 }
